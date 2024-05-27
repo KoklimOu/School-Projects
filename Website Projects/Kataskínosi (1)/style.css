@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: auto;
+    max-width: 1920px;
+    max-height: 1080px;
+    background-color: #F7F6F4;
+}
+
+a, li,button, input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    padding: 20px 5% 0% 5%;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+#slide-show, #category, #monthly-deal, #recent-news, #best-seller, #slide-show-2{
+    padding: 5% 5% 0 5%;
+}
+
+.section-header{
+    position: relative;
+    bottom: 15px;
+}
+
+.brand-name{
+    font-size: 26px;
+    font-weight: 800;
+    padding: 5px 10px;
+    color: #fff;
+    background: #0088a9;
+}
+
+ul{
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+li a{
+    transition: all 0.3s ease 0s;
+}
+li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+
+ul .right-side-nav li{
+    padding: 0;
+}
+
+li a .fa-basket-shopping{
+    padding: 10px;
+    background: yellow;
+    border-radius: 50%;
+} 
+
+section{
+    padding-top: 5%;
+}
+
+.title span{
+    font-size: 60px;
+    display: block;
+}
+
+.custom-img-fluid{
+    max-width: 230px;
+}
+
+.payment-footer-image{
+    background-color: #DA5E42;
+    padding: 3%;
+}
+
+.payment-footer-image img{
+    max-width: 120px;
+}
+
+footer{
+    padding: 3% 5% 3% 5%;
+    background-color: #D84727;
+    width: 100%;
+}
+
+.brand-name-footer{
+    font-size: 36px;
+    color: white;
+    font-weight: 900;
+    background-color: #DA5E42;
+    padding: 5px 10px;
+}
+
+.list-address, .useful-link, .get-in-touch{
+    padding: 0;
+    margin: 0;
+}
+
+.get-in-touch li{
+    margin-top: -10px;
+}
+
+.list-address li, .useful-link li, .get-in-touch li{
+    color: #F7F6F4;
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: none;
+    display: block;
+}

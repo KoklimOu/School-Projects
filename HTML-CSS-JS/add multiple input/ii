@@ -1,0 +1,38 @@
+customer{
+}, user, admin, 
+products{
+    long id,
+    String productName,
+    blob desc,
+    double price,
+    date createDate,
+    date updateDate,
+    boolean status,
+}
+
+GET
+api/v1/customer/{cusomerId}
+{
+    message:sucessful
+    statusCode:200
+    data:{
+        id:1,
+        username:"John",
+        password: "345678900okjgkdshf#$%^&&",
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: red; align-items: center;"><center>Hello world!</center></h1>
+    
+</body>
+</html>
+, products detail, shipping, discount, ...

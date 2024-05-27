@@ -1,0 +1,7 @@
+CREATE TABLE users(
+    id long,
+    username varchar(45),
+    password varchar(45),
+    address varchar(255)
+)
+SELECT username, address from users where id = ;

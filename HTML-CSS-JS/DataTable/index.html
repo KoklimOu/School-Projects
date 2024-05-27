@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan and Rowspan</title>
+    <link rel = "stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" type="text/css"/>
+    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+
+    <table id="example" class="table table-bordered table-striped table-hover" style="width:100%">
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">HR Information</th>
+                <th colspan="3">Contact</th>
+            </tr>
+            <tr>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>$320,800</td>
+                <td>Edinburgh</td>
+                <td>5421</td>
+                <td>t.nixon@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>$170,750</td>
+                <td>Tokyo</td>
+                <td>8422</td>
+                <td>g.winters@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>$86,000</td>
+                <td>San Francisco</td>
+                <td>1562</td>
+                <td>a.cox@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>$433,060</td>
+                <td>Edinburgh</td>
+                <td>6224</td>
+                <td>c.kelly@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                <td>Accountant</td>
+                <td>$162,700</td>
+                <td>Tokyo</td>
+                <td>5407</td>
+                <td>a.satou@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Brielle Williamson</td>
+                <td>Integration Specialist</td>
+                <td>$372,000</td>
+                <td>New York</td>
+                <td>4804</td>
+                <td>b.williamson@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Herrod Chandler</td>
+                <td>Sales Assistant</td>
+                <td>$137,500</td>
+                <td>San Francisco</td>
+                <td>9608</td>
+                <td>h.chandler@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Rhona Davidson</td>
+                <td>Integration Specialist</td>
+                <td>$327,900</td>
+                <td>Tokyo</td>
+                <td>6200</td>
+                <td>r.davidson@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Colleen Hurst</td>
+                <td>Javascript Developer</td>
+                <td>$205,500</td>
+                <td>San Francisco</td>
+                <td>2360</td>
+                <td>c.hurst@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Sonya Frost</td>
+                <td>Software Engineer</td>
+                <td>$103,600</td>
+                <td>Edinburgh</td>
+                <td>1667</td>
+                <td>s.frost@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Jena Gaines</td>
+                <td>Office Manager</td>
+                <td>$90,560</td>
+                <td>London</td>
+                <td>3814</td>
+                <td>j.gaines@datatables.net</td>
+            </tr>
+            <tr>
+                <td>Quinn Flynn</td>
+                <td>Support Lead</td>
+                <td>$342,000</td>
+                <td>Edinburgh</td>
+                <td>9497</td>
+                <td>q.flynn@datatables.net</td>
+            </tr>
+            
+        </tbody>
+       
+    </table>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#example').DataTable({
+                columnDefs: [
+                    {
+                        visible: true,
+                        targets: -1
+                    },
+                ],
+            });
+        });
+    </script>
+    
+</body>
+</html>

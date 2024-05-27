@@ -1,0 +1,29 @@
+.svg-letter {
+    width: auto;
+    height: 1em; /* Set height to match the font size */
+    display: inline-block; /* Ensure each SVG is inline-block to align correctly */
+    vertical-align: bottom; /* Align SVG elements properly */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
+
+.svg-text {
+    fill: #333;
+    font-size: 1em; /* Set font size to match the height */
+    font-family: Arial, sans-serif;
+    dominant-baseline: text-before-edge; /* Align text correctly inside SVG */
+}
+
+.letter-1 {
+    fill: red;
+}
+
+.letter-2 {
+    fill: green;
+}
+
+.letter-3 {
+    fill: blue;
+}
+
+/* Add more styles for other letters as needed */

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(255, 252, 249);
+}
+
+.header-container{
+    max-width: 1920px;
+    height: 100%;
+    margin: auto;
+    padding: 20px 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container a{
+    text-decoration: none;
+}
+
+.header-container a.brand-name{
+    font-size: 26px;
+    font-weight: 800;
+    padding: 5px 10px;
+    color: #fff;
+    background: #0088a9;
+}
+
+.header-container ul{
+    margin: 0;
+}
+
+.header-container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
